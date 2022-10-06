@@ -3,11 +3,11 @@ import Box from "../box/box";
 
 function Award({ title, date, link, summary }) {
     return (
-        <Box>
+        <Box className={"award"}>
             <h3>{title}</h3>
             <h4>{date}</h4>
             <p>{summary}</p>
-            {link && <span>Link: <a href={link} target={"_blank"} rel="noreferrer">{link}</a></span>}
+            {link && <span className={"award-link"}>Link: <a href={link} target={"_blank"} rel="noreferrer">{link}</a></span>}
         </Box>
     )
 }
@@ -15,7 +15,7 @@ function Award({ title, date, link, summary }) {
 export function AwardsComponent({ awards }) {
     return (
         <Box id="awards">
-            <h2><i className="fa fa-trophy left"></i>AWARDS</h2>
+            <h2><i className="fa fa-trophy left"></i> AWARDS</h2>
             {
                 awards.map((award, index) => {
                     return <Award key={`award-${index}`} {...award} />

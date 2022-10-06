@@ -15,7 +15,7 @@ function Education({ area, startDate, endDate, institution, studyType, gpa }) {
 export function EducationComponent({ education }) {
     return (
         <Box id="education">
-            <h2><i className="fa fa-graduation-cap left"></i>EDUCATION</h2>
+            <h2><i className="fa fa-graduation-cap left"></i> EDUCATION</h2>
             {
                 education.map((educationItem, index) => {
                     return <Education key={`education-${index}`} {...educationItem} />

@@ -17,7 +17,7 @@ function Skills({ name, keywords }) {
 export function SkillsComponent({ skills }) {
     return (
         <Box id="skills">
-            <h2><i className="fa fa-tasks left"></i>SKILLS</h2>
+            <h2><i className="fa fa-tasks left"></i> SKILLS</h2>
             {
                 skills.map((skill, index) => {
                     return <Skills key={`skill-${index}`} {...skill} />

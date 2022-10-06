@@ -22,7 +22,7 @@ function Experience({ company, highlights, position, startDate, endDate, summary
 export function WorkExperienceComponent({ work }) {
     return (
         <Box id="work">
-            <h2><i className="fa fa-suitcase left"></i>PROFESSIONAL WORK EXPERIENCE</h2>
+            <h2><i className="fa fa-suitcase left"></i> PROFESSIONAL WORK EXPERIENCE</h2>
             {
                 work.map((experience, index) => {
                     return <Experience key={`experience-${index}`} {...experience} />

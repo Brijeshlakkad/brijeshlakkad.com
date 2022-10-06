@@ -95,6 +95,12 @@ blockquote .name {
 .responsive-show {
     display:none;
 }
+.award {
+    margin-bottom: 25px;
+}
+.award-link {
+    font-size: 0.9rem;
+}
 @media (max-width: 1000px) {
       .header {
         font-size: 1.66em;
