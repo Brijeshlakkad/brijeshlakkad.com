@@ -1,0 +1,293 @@
+{
+  "basics": {
+    "name": "Brijesh Lakkad",
+    "label": "Software Engineer",
+    "image": "",
+    "email": "brijeshlakkad22@gmail.com",
+    "website": "",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Greater Montreal Area",
+      "countryCode": "CA",
+      "province": "Quebec"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "Brijeshlakkad",
+        "url": "https://github.com/Brijeshlakkad"
+      },
+      {
+        "network": "Twitter",
+        "username": "brijeshlakkad22",
+        "url": "https://twitter.com/brijeshlakkad22"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "brijeshlakkad",
+        "url": "https://www.linkedin.com/in/brijeshlakkad"
+      }
+    ]
+  },
+  "summary": "Brijesh enjoys programming and problem-solving and sees hacking on software as a way of life rather than just a job. His brain is full of useless facts, such as maps, and he thinks the techie shall inherit the planet. When he's not programming, he enjoys music, reading books, and exploring new ways to enjoy nature.",
+  "skills": [
+    {
+      "name": "Highlights",
+      "keywords": [
+        "Golang",
+        "Java",
+        "Kubernetes",
+        "Docker",
+        "gRPC",
+        "Distributed Systems",
+        "Micro-services",
+        "Prometheus",
+        "Jaeger",
+        "Telepresence",
+        "NATS messaging system",
+        "CI/CD",
+        "RESTful web service",
+        "devops-minded",
+        "agile (scrum)"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "keywords": [
+        "golang",
+        "Java",
+        "Apache Kafka",
+        "Redis",
+        "Elasticsearch",
+        "MongoDB",
+        "BigQuery",
+        "Apache Cassandra",
+        "MySQL",
+        "PostgreSQL",
+        "Spring Boot"
+      ]
+    },
+    {
+      "name": "DevOps/Infrastructure",
+      "keywords": [
+        "Kubernetes",
+        "Helm",
+        "Docker",
+        "Prometheus",
+        "Grafana",
+        "etcd",
+        "Amazon Web Service (AWS)",
+        "Google Cloud Platform (GCP)"
+      ]
+    },
+    {
+      "name": "Frontend Development",
+      "keywords": [
+        "React / Redux / ReactRouter",
+        "Angular 11+",
+        "Next.js",
+        "GitHub Electron"
+      ]
+    },
+    {
+      "name": "Other Languages, Libraries, and Frameworks",
+      "keywords": [
+        "Rust",
+        "Node.js",
+        "Scala",
+        "Hashicorp Raft",
+        "Hashicorp Serf",
+        "C",
+        "C++"
+      ]
+    },
+    {
+      "name": "Version Control",
+      "keywords": [
+        "Git",
+        "mercurial"
+      ]
+    },
+    {
+      "name": "Continuous Integration",
+      "keywords": [
+        "gitlab-ci",
+        "jenkins",
+        "travis",
+        "circle-ci"
+      ]
+    },
+    {
+      "name": "Development Tools / Environments",
+      "keywords": [
+        "Visual Studio Code",
+        "IntelliJ",
+        "GoLand"
+      ]
+    },
+    {
+      "name": "Operating Systems",
+      "keywords": [
+        "CoreOS (Container Linux)",
+        "Ubuntu/Debian",
+        "archlinux"
+      ]
+    },
+    {
+      "name": "QA Automation",
+      "keywords": [
+        "selenium",
+        "capybara"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Concordia University",
+      "position": "Developer",
+      "website": "https://spokenweb.ca/",
+      "startDate": "2022-09-19",
+      "summary": "Continuous Integration, Kubernetes, Angular, Information Retrieval, Cloud",
+      "highlights": [
+        "Developing digital preservation and aggregation techniques, asset management, and infrastructure to support sustainable access to SWALLOW (An Open-Source Metadata Ingestion System designed by Concordia University).",
+        "Working closely with a group of researchers for the development using the latest technologies.",
+        "Developing coordinated and collaborative approaches to access the archive of diverse collections of artifacts from across Canada and beyond."
+      ]
+    },
+    {
+      "company": "SAP",
+      "position": "Software Developer (co-op)",
+      "website": "https://www.sap.com/index.html",
+      "startDate": "2022-05-02",
+      "endDate": "2022-08-31",
+      "summary": "ABAP, Cloud, SAPUI5 (JavaScript Framework), Acceptance & Integration Tests, Team Collaboration",
+      "highlights": [
+        "Contributed to the development of a high-quality Marketing Cloud product using Scrum methodology and Test-driven Development TDD.",
+        "Designed and implemented new features and resolved complex customer incidents.",
+        "Utilised knowledge in JavaScript, SAPUI5, QUnit and OPA testing, ABAP, and Jira.",
+        "Awarded the Fast Track for success, high motivation and commitment during my experience."
+      ]
+    },
+    {
+      "company": "Concordia University",
+      "position": "Graduate Teaching Assistant",
+      "website": "https://www.concordia.ca/",
+      "startDate": "2022-01-06",
+      "endDate": "2022-05-01",
+      "summary": "Principles of distributed computing, Client-server interaction technologies, Server design techniques, CORBA, Sockets, Remote method invocation, Remote procedure call, Group communication, Process replication, Fault tolerance through passive replication, High availability through active replication, Coordination and agreement, Transactions and concurrency control",
+      "highlights": [
+        "Lead weekly tutorials and laboratories.",
+        "Weekly office hours where students can get help with assignment doubts, laboratories, and course concepts.",
+        "Tutored struggling students individually and in small groups to reinforce learning concepts.",
+        "Term Project description (brief): Develop in-memory distributed systems using CORBA or Jakarta XML Web Services."
+      ]
+    },
+    {
+      "company": "Concordia University",
+      "position": "Teaching Assistant",
+      "website": "https://www.concordia.ca/",
+      "startDate": "2021-09-20",
+      "endDate": "2021-12-22",
+      "summary": "Architectures, Processes, Communication, Naming, Coordination, Consistency and replication, Fault tolerance",
+      "highlights": [
+        "Managing laboratories and tutorials for over 30 students each week and providing personalized feedback.",
+        "Preparing laboratory and tutorial materials and assisting course staff in improvements to the course."
+      ]
+    },
+    {
+      "company": "STEMpedia",
+      "position": "Full-Stack Developer",
+      "websites": [
+        "https://thestempedia.com/",
+        "https://pictoblox.ai/"
+      ],
+      "startDate": "2019-12-02",
+      "endDate": "2021-01-10",
+      "summary": "RPC, Sockets, React, React-Redux, Python, Electron.js, Node.js, Firebase functions, Cloud Firestore, Google Blockly.",
+      "highlights": [
+        "Increased the rate of development work by 60% by resolving critical customer bugs.",
+        "45% increase in product use and popularity among international schools and governments of Goa and Tunisia in (state or country-level) coding competition by developing the Python IDE and a performant command-line tool.",
+        "Extended Electron.js to support Google Analytics 4 and developed automation tools to help others.",
+        "Developed SB3 to HTML file converter",
+        "Coached and onboarded new developers."
+      ]
+    },
+    {
+      "company": "Various Open Source Projects",
+      "position": "Contributor",
+      "startDate": "2022-01-10",
+      "summary": "",
+      "highlights": [
+        "Brijeshlakkad/goutube",
+        "Brijeshlakkad/ring",
+        "hc-oss/react-multi-select-component",
+        "LLK/scratch-blocks",
+        "google/closure-compiler"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Concordia University",
+      "area": "Computer Science CO-OP",
+      "studyType": "Master",
+      "startDate": "2021-01-06",
+      "endDate": "2022-12-31",
+      "gpa": "3.76/4.00"
+    },
+    {
+      "institution": "Gujarat Technological University",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2015-08-01",
+      "endDate": "2019-07-01",
+      "gpa": "8.79/10.00"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Fast Track - Awards and Recognition",
+      "date": "2022-07-28",
+      "awarder": "SAP",
+      "summary": "Nominated from Managers to join Fast Track, an initiative of SAP Internship Experience Program, for success, high motivation and commitment during internship/working student time.",
+      "link": "https://www.credly.com/badges/8d19afd4-78eb-4db1-a435-1b1022ebe6cc/public_url"
+    },
+    {
+      "title": "SAP Alumni Award",
+      "date": "2022-07-29",
+      "awarder": "SAP",
+      "summary": "Paramount commitment to SAP's success over the years as a valued member of the SAP Family",
+      "link": "https://www.credly.com/badges/12c782ea-feea-415d-83fa-495c201c73f3"
+    },
+    {
+      "title": "Top Performer of the Year 2020",
+      "date": "2020-11-01",
+      "awarder": "STEMpedia",
+      "summary": ""
+    },
+    {
+      "title": "The Shri Dewang Mehta IT Award",
+      "date": "2019-06-01",
+      "awarder": "Birla Vishvakarma Mahavidyalaya Engineering College",
+      "summary": "Certificate Of Excellence Top Ranker 2019"
+    },
+    {
+      "title": "Winner Project Expo",
+      "date": "2019-01-01",
+      "awarder": "Gujarat Technological University",
+      "summary": "Final Term Project Award"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Topical blogs or research"
+    },
+    {
+      "name": "World History and Geography"
+    },
+    {
+      "name": "Siberian Huskies"
+    }
+  ]
+}

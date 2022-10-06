@@ -8,10 +8,13 @@ const reducer = (state, action) => {
 	if (typeof state === 'undefined') state = initialState;
 	switch (action.type) {
 		case FETCH_RESUME:
-			return {
-				...state,
-				data: action.data
-			};
+			if (action.resume) {
+				return {
+					...state,
+					data: action.resume
+				};
+			}
+			return state;
 		default:
 			return state;
 	}

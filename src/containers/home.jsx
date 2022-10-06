@@ -1,16 +1,18 @@
-import React from "react";
-import styled from "styled-components";
-
-const UnderConstruction = styled.div`
-    display: flex;
-    justify-content: center;
-    font-size: 21px;
-    height: 100vh;
-    align-items: center;
-`
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import {HomeComponent} from "../components/home/home";
+import { fetchResume } from "../store/actions/resume";
 
 export default function Home(props) {
-    return (<UnderConstruction>
-        Under construction!
-    </UnderConstruction>)
+    const resume = useSelector(state => state.resume.data);
+
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(fetchResume());
+    }, [dispatch, resume]);
+
+    return Object.keys(resume).length && <HomeComponent
+        resume={resume}
+    />
 }
