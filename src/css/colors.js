@@ -8,3 +8,6 @@ export const UIWhite = "hsla(0, 100%, 100%, 1)"; /* #FFFFFF */
 export const UIWhiteDim = "hsla(0, 100%, 100%, 0.75)"; /* 25% transparent version of ui-white */
 export const UIWhiteTransparent = "hsla(0, 100%, 100%, 0.25)"; /* 25% transparent version of ui-white */
 export const UITransparent = "hsla(0, 100%, 100%, 0)"; /* 25% transparent version of ui-white */
+
+export const TextPrimary = "hsla(0, 0%, 7%, 1)" /** #111111 */
+export const TextSecondary = "hsla(0, 0%, 31%, 1)" /** #4e4e4e */

@@ -8,7 +8,7 @@
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Greater Montreal Area",
+      "city": "Greater Montreal Metropolitan Area",
       "countryCode": "CA",
       "province": "Quebec"
     },
@@ -27,10 +27,15 @@
         "network": "LinkedIn",
         "username": "brijeshlakkad",
         "url": "https://www.linkedin.com/in/brijeshlakkad"
+      },
+      {
+        "network": "Credly",
+        "username": "brijeshlakkad",
+        "url": "https://www.credly.com/users/brijeshlakkad"
       }
     ]
   },
-  "summary": "Brijesh enjoys programming and problem-solving and sees hacking on software as a way of life rather than just a job. His brain is full of useless facts, such as maps, and he thinks the techie shall inherit the planet. When he's not programming, he enjoys music, reading books, and exploring new ways to enjoy nature.",
+  "summary": "Brijesh enjoys programming and problem-solving and sees hacking on software as a way of life rather than just a job. His brain is full of useless facts, such as maps, and he thinks the techie shall inherit the planet.",
   "skills": [
     {
       "name": "Highlights",
@@ -55,7 +60,7 @@
     {
       "name": "Backend Development",
       "keywords": [
-        "golang",
+        "Golang",
         "Java",
         "Apache Kafka",
         "Redis",
@@ -75,7 +80,6 @@
         "Helm",
         "Docker",
         "Prometheus",
-        "Grafana",
         "etcd",
         "Amazon Web Service (AWS)",
         "Google Cloud Platform (GCP)"
@@ -93,26 +97,24 @@
     {
       "name": "Other Languages, Libraries, and Frameworks",
       "keywords": [
-        "Rust",
+        "C",
+        "C++",
         "Node.js",
         "Scala",
         "Hashicorp Raft",
-        "Hashicorp Serf",
-        "C",
-        "C++"
+        "Hashicorp Serf"
       ]
     },
     {
       "name": "Version Control",
       "keywords": [
-        "Git",
-        "mercurial"
+        "Git"
       ]
     },
     {
       "name": "Continuous Integration",
       "keywords": [
-        "gitlab-ci",
+        "github-actions",
         "jenkins",
         "travis",
         "circle-ci"
@@ -133,13 +135,6 @@
         "Ubuntu/Debian",
         "archlinux"
       ]
-    },
-    {
-      "name": "QA Automation",
-      "keywords": [
-        "selenium",
-        "capybara"
-      ]
     }
   ],
   "work": [
@@ -150,9 +145,9 @@
       "startDate": "2022-09-19",
       "summary": "Continuous Integration, Kubernetes, Angular, Information Retrieval, Cloud",
       "highlights": [
-        "Developing digital preservation and aggregation techniques, asset management, and infrastructure to support sustainable access to SWALLOW (An Open-Source Metadata Ingestion System designed by Concordia University).",
-        "Working closely with a group of researchers for the development using the latest technologies.",
-        "Developing coordinated and collaborative approaches to access the archive of diverse collections of artifacts from across Canada and beyond."
+        "Developing digital preservation and aggregation techniques, asset management, and infrastructure to support sustainable access to SWALLOW (An Open-Source Metadata Ingestion System designed by Concordia University)",
+        "Working closely with a group of researchers for the development using the latest technologies",
+        "Developing coordinated and collaborative approaches to access the archive of diverse collections of artifacts from across Canada and beyond"
       ]
     },
     {
@@ -163,10 +158,12 @@
       "endDate": "2022-08-31",
       "summary": "ABAP, Cloud, SAPUI5 (JavaScript Framework), Acceptance & Integration Tests, Team Collaboration",
       "highlights": [
-        "Contributed to the development of a high-quality Marketing Cloud product using Scrum methodology and Test-driven Development TDD.",
-        "Designed and implemented new features and resolved complex customer incidents.",
-        "Utilised knowledge in JavaScript, SAPUI5, QUnit and OPA testing, ABAP, and Jira.",
-        "Awarded the Fast Track for success, high motivation and commitment during my experience."
+        "Contributed to the development of a high-quality Marketing Cloud product using Scrum methodology and Test-driven Development TDD",
+        "Designed and implemented new features and resolved complex customer incidents",
+        "* migrated the business events from the workflow model to ABAP RESTful Application Programming Model",
+        "* developed health checks to reduce system consumption by removing stale product entities",
+        "Utilised knowledge in JavaScript, SAPUI5, QUnit and OPA testing, ABAP, and Jira",
+        "Awarded the Fast Track for success, high motivation and commitment during my experience"
       ]
     },
     {
@@ -177,10 +174,10 @@
       "endDate": "2022-05-01",
       "summary": "Principles of distributed computing, Client-server interaction technologies, Server design techniques, CORBA, Sockets, Remote method invocation, Remote procedure call, Group communication, Process replication, Fault tolerance through passive replication, High availability through active replication, Coordination and agreement, Transactions and concurrency control",
       "highlights": [
-        "Lead weekly tutorials and laboratories.",
-        "Weekly office hours where students can get help with assignment doubts, laboratories, and course concepts.",
-        "Tutored struggling students individually and in small groups to reinforce learning concepts.",
-        "Term Project description (brief): Develop in-memory distributed systems using CORBA or Jakarta XML Web Services."
+        "Lead weekly tutorials and laboratories",
+        "Weekly office hours where students can get help with assignment doubts, laboratories, and course concepts",
+        "Tutored struggling students individually and in small groups to reinforce learning concepts",
+        "Term Project description (brief): Develop in-memory distributed systems using CORBA or Jakarta XML Web Services"
       ]
     },
     {
@@ -191,8 +188,8 @@
       "endDate": "2021-12-22",
       "summary": "Architectures, Processes, Communication, Naming, Coordination, Consistency and replication, Fault tolerance",
       "highlights": [
-        "Managing laboratories and tutorials for over 30 students each week and providing personalized feedback.",
-        "Preparing laboratory and tutorial materials and assisting course staff in improvements to the course."
+        "Managing laboratories and tutorials for over 30 students each week and providing personalized feedback",
+        "Preparing laboratory and tutorial materials and assisting course staff in improvements to the course"
       ]
     },
     {
@@ -204,13 +201,14 @@
       ],
       "startDate": "2019-12-02",
       "endDate": "2021-01-10",
-      "summary": "RPC, Sockets, React, React-Redux, Python, Electron.js, Node.js, Firebase functions, Cloud Firestore, Google Blockly.",
+      "summary": "RPC, Sockets, React, React-Redux, Python, Electron.js, Node.js, Firebase functions, Cloud Firestore, Google Blockly",
       "highlights": [
-        "Increased the rate of development work by 60% by resolving critical customer bugs.",
-        "45% increase in product use and popularity among international schools and governments of Goa and Tunisia in (state or country-level) coding competition by developing the Python IDE and a performant command-line tool.",
-        "Extended Electron.js to support Google Analytics 4 and developed automation tools to help others.",
-        "Developed SB3 to HTML file converter",
-        "Coached and onboarded new developers."
+        "Increased the rate of development work by 60% by resolving critical customer bugs",
+        "45% increase in product use and popularity among international schools and governments of Goa and Tunisia in (state or country-level) coding competition by developing the Python IDE and a performant command-line tool",
+        "* extended Electron.js to support Google Analytics 4 and developed automation tools to help others",
+        "* built SB3 to HTML file converter",
+        "* developed a streamlined solution for the product internationalization",
+        "Coached and onboarded new developers"
       ]
     },
     {
@@ -234,7 +232,8 @@
       "studyType": "Master",
       "startDate": "2021-01-06",
       "endDate": "2022-12-31",
-      "gpa": "3.76/4.00"
+      "gpa": "3.76/4.00",
+      "summary": "Member of the Institute for Co-operative Education"
     },
     {
       "institution": "Gujarat Technological University",
@@ -250,7 +249,7 @@
       "title": "Fast Track - Awards and Recognition",
       "date": "2022-07-28",
       "awarder": "SAP",
-      "summary": "Nominated from Managers to join Fast Track, an initiative of SAP Internship Experience Program, for success, high motivation and commitment during internship/working student time.",
+      "summary": "Nominated from Managers to join Fast Track, an initiative of SAP Internship Experience Program, for success, high motivation and commitment during internship/working student time",
       "link": "https://www.credly.com/badges/8d19afd4-78eb-4db1-a435-1b1022ebe6cc/public_url"
     },
     {
@@ -277,6 +276,89 @@
       "date": "2019-01-01",
       "awarder": "Gujarat Technological University",
       "summary": "Final Term Project Award"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Goutube",
+      "startDate": "2022-06-22",
+      "description": "Streaming utility to build largely-scalable, highly available, fast, secure distributed streaming APIs",
+      "summary": "Golang, gRPC, Serf, Ring, and Kubernetes",
+      "link": "https://github.com/Brijeshlakkad/goutube",
+      "highlights": [
+        "cluster membership using Hashicorp serf",
+        "used crypto/tls for authentication and authorization",
+        "developed (replica-aware) load balancers from scratch",
+        "developed file management module to store points (files) and point-cron to collect and close files should no longer be opened",
+        "used Redis to store peer offsets to help synchronize two servers easily",
+        "built (replica-aware) load balancer from scratch",
+        "developed picker and resolver for gRPC",
+        "used Brijeshlakkad/ring for peer-to-peer architecture",
+        "* protocol to transfer responsibility upon joining a new node",
+        "replication using `net` at the transport layer",
+        "developed Goutube client that consumes data from multiple servers as per its bandwidth"
+      ]
+    },
+    {
+      "name": "Ring",
+      "startDate": "2022-06-22",
+      "description": "Go utility for Peer to Peer Architecture",
+      "summary": "Golang, gRPC, Serf, Ring, and Kubernetes",
+      "link": "https://github.com/Brijeshlakkad/ring",
+      "highlights": [
+        "used Hashicorp serf for cluster membership",
+        "developed a consistent hashing algorithm",
+        "observer-pattern to let the node know about transferring its (some part of) responsibility to the new node",
+        "developed Paxos consensus algorithm with net transport and connection pool",
+        "set up continuous integration using GitHub actions",
+        "* used crypto/tls for transport layer security"
+      ]
+    },
+    {
+      "name": "Delinkcious",
+      "startDate": "2022-05-04",
+      "endDate": "2022-06-26",
+      "description": "Microservices with Kubernetes",
+      "summary": "Golang, gRPC, NATS messaging system, Kubernetes, Docker, Prometheus",
+      "link": "https://github.com/Brijeshlakkad/delinkcious",
+      "highlights": [
+        "used Redis to store data in memory to avoid hitting the disk",
+        "used message queue systems to loosely couple two microservices",
+        "developed a blue-green deployment strategy to keep the system up while deploying the new versions",
+        "built dev tools for integrating services with Kubernetes locally",
+        "* on top of minikube/kind/k3d",
+        "developed CI/CD pipelines",
+        "* used CircleCI for continuous integration",
+        "* used ArgoCD for continuous delivery",
+        "designed unit, smoke and integration tests for microservices",
+        "* Telepresence to run a service locally as if it's running inside the Kubernetes cluster",
+        "* Tilt to set a complete live development environment for testing on Kubernetes",
+        "built monitoring/alerting infrastructure around the Prometheus federation",
+        "integrated Jaeger for distributed tracing",
+        "used Knative for serverless requirements"
+      ]
+    },
+    {
+      "name": "Distributed-logging",
+      "startDate": "2022-06-05",
+      "endDate": "2022-07-10",
+      "description": "Distributed logging service, a largely-scalable, highly available, secure, and millisecond latency system to stream data",
+      "summary": "Golang, gRPC, GKE, Helm, Zap, OpenCensus",
+      "link": "https://github.com/Brijeshlakkad/distributed-logging",
+      "highlights": [
+        "built dev tools for integrating services with Kubernetes locally using minikube/kind/k3d",
+        "* helm chart for package application",
+        "* deployed application to the Google Kubernetes Engine (GKE)",
+        "used CloudFlare tools, cfssl and cfssljson for trusted certificates",
+        "* authorizer with Casbin",
+        "* interceptors to authenticate and read the client's cert",
+        "observe the system by metrics, logging and tracing",
+        "* OpenCensus's gRPC integration for metrics and tracing and Uber's Zap logging library",
+        "service discovery and cluster membership using HashiCorp Serf",
+        "multiplex to run multiple services on one port",
+        "implemented picker and resolver for gRPC",
+        "developed an agent to quickly create a service using simple commands"
+      ]
     }
   ],
   "interests": [

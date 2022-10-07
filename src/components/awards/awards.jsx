@@ -7,7 +7,7 @@ function Award({ title, date, link, summary }) {
             <h3>{title}</h3>
             <h4>{date}</h4>
             <p>{summary}</p>
-            {link && <span className={"award-link"}>Link: <a href={link} target={"_blank"} rel="noreferrer">{link}</a></span>}
+            {link && <span className={"link"}>Link: <a href={link} target={"_blank"} rel="noreferrer">{link}</a></span>}
         </Box>
     )
 }

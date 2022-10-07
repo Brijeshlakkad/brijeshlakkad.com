@@ -1,14 +1,26 @@
 import React from "react";
+import styled from "styled-components";
+import { TextSecondary } from "../../css/colors";
 import { parseDate } from "../../lib/date-util";
 import Box from "../box/box";
 
-function Education({ area, startDate, endDate, institution, studyType, gpa }) {
+const Summary = styled(Box)`
+    font-size: 1rem;
+    font-weight: bold;
+    color: ${TextSecondary};
+`
+
+function Education({ area, startDate, endDate, institution, studyType, gpa, summary }) {
     return (
         <Box>
             <h3>{`${studyType}, ${area} - ${institution}`}</h3>
-            <h4>{`${parseDate(startDate)} - ${parseDate(endDate)}`}<br />
-                <span>GPA: {gpa}</span>
-            </h4>
+            <Summary>
+                <Box>{`${parseDate(startDate)} - ${parseDate(endDate)}`}</Box>
+                <Box><span>GPA: {gpa}</span></Box>
+                {
+                    summary && <Box><span>{summary}</span></Box>
+                }
+            </Summary>
         </Box>
     )
 }

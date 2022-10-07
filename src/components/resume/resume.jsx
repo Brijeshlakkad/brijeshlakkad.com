@@ -4,6 +4,7 @@ import { BasicsComponent } from "../basics/basics";
 import Box from "../box/box";
 import { EducationComponent } from "../education/education";
 import { InterestsComponent } from "../interests/interests";
+import { ProjectComponent } from "../projects/projects";
 import { SkillsComponent } from "../skills/skills";
 import { SummaryComponent } from "../summary/summary";
 import { WorkExperienceComponent } from '../work-experience/work-experience'
@@ -25,6 +26,9 @@ export function ResumeComponent({ resume }) {
             />
             <EducationComponent
                 education={resume.education}
+            />
+            <ProjectComponent
+                projects={resume.projects}
             />
             <AwardsComponent
                 awards={resume.awards}
